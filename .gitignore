@@ -1,3 +1,17 @@
 .env
 license.json
 .*.swp
+
+# Apple
+.DS_Store
+
+# Terraform
+.terraform/
+./*.tfstate
+*.backup
+terraform.tfplan
+terraform.tfstate
+.terraform.lock.hcl
+infra.tfout
+
+env*.sh
